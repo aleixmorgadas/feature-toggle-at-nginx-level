@@ -8,6 +8,8 @@ Sorry for the long build process, it installs all the required stuff by each fra
 
 `docker run --rm -p 8080:80 feature-toggle-at-nginx-level`
 
+You might need to clean your cache to see the application change.
+
 ## Supporting Tools
 
 I use the Cookie Editor Browser extension in case you don't want to add a button.
