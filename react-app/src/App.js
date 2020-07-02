@@ -3,6 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const featureToggle = () => {
+    document.cookie = 'Toggle=true';
+
+    // eslint-disable-next-line no-restricted-globals
+    location.reload();
+  }
+
   return (
     <div className="App">
       <header className="App-header">
@@ -18,6 +25,7 @@ function App() {
         >
           Learn React
         </a>
+        <button onClick={featureToggle}>Go to new Application (vue)</button>
       </header>
     </div>
   );
