@@ -1,5 +1,7 @@
 # feature-toggle-at-nginx-level
 
+[![practical-dev](/.github/cover.png)](https://dev.to/aleixmorgadas/feature-toggle-at-nginx-level-d0f)
+
 [Read the post at dev.to](https://dev.to/aleixmorgadas/feature-toggle-at-nginx-level-d0f).
 
 ## Demo
