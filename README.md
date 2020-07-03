@@ -8,7 +8,9 @@ Sorry for the long build process, it installs all the required stuff by each fra
 
 `docker run --rm -p 8080:80 feature-toggle-at-nginx-level`
 
-You might need to clean your cache to see the application change.
+:warning: You might need to clean your cache to see the application change, but it shouldn't after the latest fix :smile:
+
+Check the demo at http://localhost:8080
 
 ## Supporting Tools
 
