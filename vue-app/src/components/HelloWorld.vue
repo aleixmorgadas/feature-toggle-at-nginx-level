@@ -17,7 +17,7 @@ export default class HelloWorld extends Vue {
     this.msg = 'reloading...';
 
     // eslint-disable-next-line no-restricted-globals
-    location.reload();
+    location.reload(true);
   }
 }
 </script>

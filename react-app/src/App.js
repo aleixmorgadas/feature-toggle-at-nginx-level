@@ -7,7 +7,7 @@ function App() {
     document.cookie = 'Toggle=true';
 
     // eslint-disable-next-line no-restricted-globals
-    location.reload();
+    location.reload(true);
   }
 
   return (
